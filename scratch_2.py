@@ -43,7 +43,7 @@ print(response.status_code)
 def send_email(subject, body, to_email):
     # Your Outlook credentials
     outlook_user = 'falldetecttest@outlook.com'
-    outlook_password = 'Tester123!'
+    outlook_password = ''
 
     # Create the email message
     message = MIMEMultipart()
